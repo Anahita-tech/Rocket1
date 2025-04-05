@@ -1,0 +1,4 @@
+This is my first program after reading 2 chapters of Python. It’s a program that simulates the linear motion of a rocket.
+Initially, we have an initial velocity of 30 and an initial height of 0. Until the height reaches 100, seconds are added one by one, and the new height is calculated using the formula h = v * t, and these new heights are printed in a list.
+If the height exceeds 50, the message "The rocket is getting close to space" is printed. If the height becomes greater than or equal to 100, the message "The rocket has reached space" is printed. Otherwise, the message "The rocket still has a way to go" is printed. If the rocket’s height becomes less than zero, the message "The rocket has crashed" is printed.
+And if the rocket’s velocity decreases for some reason, such as gravity, it prints the velocity values in a list until the velocity reaches 30 again. If the rocket’s velocity becomes zero, the message "The rocket can not go any higher" is printed.
